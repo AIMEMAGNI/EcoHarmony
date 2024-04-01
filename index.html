@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHarmony</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Images/icon.jpg">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>EcoHarmony</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#conservation">Conservation</a></li>
+                    <li><a href="#biodiversity">Biodiversity</a></li>
+                    <li><a href="#ecotourism">Ecotourism</a></li>
+                    <li><a href="#forum">Forum</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- World Image with Welcome Section -->
+    <section id="world-image">
+        <img src="Images/world.jpg" alt="World" class="world-image">
+        <div class="welcome-section">
+            <div class="container">
+                <h2>Welcome to EcoHarmony</h2>
+                <p>Raising awareness of wildlife conservation and ecotourism in Africa.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About EcoHarmony</h2>
+            <p>The purpose of the EcoHarmony project is to raise awareness of wildlife conservation and ecotourism in
+                Rwanda and throughout Africa. It aims to educate people about the vital significance of protecting
+                biodiversity and encouraging ethical ecotourism practices through an educational website. The platform
+                will serve as a dynamic forum, bringing together professionals and enthusiasts to share knowledge and
+                foster a community committed to preserving Africa's natural heritage.</p>
+        </div>
+    </section>
+
+    <!-- Conservation Section -->
+    <section id="conservation">
+        <div class="container">
+            <h2 class="conservation-text">Conservation</h2>
+            <p class="conservation-text">Conservation is the protection, preservation, management, or restoration of
+                wildlife and natural resources such as forests, rivers, and oceans. It involves efforts to maintain
+                biodiversity, protect endangered species, and sustain ecosystems for future generations.</p>
+        </div>
+    </section>
+
+    <!-- Biodiversity Section -->
+    <section id="biodiversity">
+        <div class="container">
+            <h2>Biodiversity</h2>
+            <p>Biodiversity refers to the variety of life on Earth, including all living organisms such as plants,
+                animals, fungi, and microorganisms, as well as the ecosystems and habitats they inhabit. Africa is
+                renowned for its rich biodiversity, with diverse ecosystems ranging from tropical rainforests and
+                savannas to mountains and deserts.</p>
+        </div>
+    </section>
+
+    <!-- Ecotourism Section -->
+    <section id="ecotourism">
+        <div class="container">
+            <h2>Ecotourism</h2>
+            <p>Ecotourism is a form of sustainable tourism that promotes responsible travel to natural areas while
+                conserving the environment and improving the well-being of local communities. It emphasizes
+                environmental education, cultural immersion, and conservation initiatives, offering travelers unique
+                experiences that support conservation efforts.</p>
+        </div>
+    </section>
+
+    <!-- Forum Section -->
+    <section id="forum">
+        <div class="container">
+            <h2>Forum</h2>
+            <p>Join our forum to connect with fellow conservationists, ecotourists, and wildlife enthusiasts. Share your
+                experiences, ask questions, and collaborate on initiatives to protect Africa's natural heritage.
+                Together, we can make a difference!</p>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <div class="container">
+            <h2>Resources</h2>
+            <p>Access a wealth of resources including articles, videos, and educational materials related to wildlife
+                conservation and ecotourism in Africa. Stay informed, learn new skills, and discover opportunities to
+                get involved in conservation efforts.</p>
+
+            <!-- YouTube Video Embeds -->
+            <div class="video-container">
+                <!-- Example YouTube Video Embed -->
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/aN3a2fdfj2I" frameborder="0"
+                    allowfullscreen></iframe>
+
+                <!-- Example YouTube Video Embed -->
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/e-yAO267tvE" frameborder="0"
+                    allowfullscreen></iframe>
+
+                <!-- Add more videos as needed -->
+                <!-- Example YouTube Video Embed -->
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/Sgtf6hd1VvM" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- More Videos Button -->
+            <button id="more-videos-btn">More Videos</button>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <div class="container">
+            <h2>Feedback</h2>
+            <p>We appreciate your feedback! Please fill out the form below <br> to send us your comments, questions, or
+                suggestions.</p><br>
+
+            <form id="feedback-form" action="send_feedback.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoHarmony. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
